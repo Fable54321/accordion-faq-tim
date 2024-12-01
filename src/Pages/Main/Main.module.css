@@ -1,0 +1,98 @@
+/* colors */
+/* fonts */
+/* font sizes */
+/* font weights */
+/* spacings */
+/* breakpoints */
+.main {
+  margin-top: 1.5rem;
+}
+@media (min-width: 40em) {
+  .main {
+    margin-top: 2rem;
+  }
+}
+.main__questions {
+  display: flex;
+  flex-direction: column;
+}
+.main__questions__questionAnswer {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid hsl(275, 100%, 97%);
+  padding-block: 1.25rem;
+}
+@media (min-width: 40em) {
+  .main__questions__questionAnswer {
+    padding-block: 1.5rem;
+  }
+}
+.main__questions__questionAnswer__hidden {
+  visibility: hidden;
+  opacity: 0;
+  max-height: 0px;
+  transition: visibility 1s ease-in-out, opacity 1s ease-in-out, max-height 1s ease-in-out;
+}
+.main__questions__questionAnswer__visible {
+  visibility: visible;
+  margin-top: 1.5rem;
+  max-height: 100px;
+  opacity: 1;
+  height: auto;
+  transition: opacity 1s ease-in-out, max-height 1s ease-in-out;
+}
+.main__questions__tile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+.main__questions__tile h2 {
+  font-family: "work sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+}
+@media (min-width: 40em) {
+  .main__questions__tile h2 {
+    font-size: 1.125rem;
+  }
+  .main__questions__tile h2:hover {
+    cursor: pointer;
+    color: hsl(281, 83%, 54%);
+  }
+}
+.main__questions__tile img {
+  width: 30px;
+  height: 30px;
+}
+.main__questions__tile button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  right: 0;
+}
+@media (min-width: 40em) {
+  .main__questions__tile button:hover {
+    cursor: pointer;
+  }
+}
+.main__questions p {
+  font-family: "work sans", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: hsl(292, 16%, 49%);
+}
+@media (min-width: 40em) {
+  .main__questions p {
+    font-size: 1rem;
+  }
+}
+.main [data-border-none] {
+  border-bottom: none;
+}/*# sourceMappingURL=Main.module.css.map */

@@ -1,0 +1,29 @@
+@use '../../Styles/Abstracts/variables' as *;
+
+
+
+.header {
+    display: flex;
+    gap: $sz-240;
+    align-items: center;
+
+    img {
+        width: $sz-240;
+        height: $sz-240;
+
+        @media(min-width: $min-width-desktop) {
+            width: $sz-400;
+            height: $sz-400;
+        }
+    }
+
+    h1 {
+        font-family: $ff-primary;
+        font-weight: $fw-700;
+        font-size: $fs-320;
+
+        @media(min-width: $min-width-desktop) {
+            font-size: $fs-560;
+        }
+    }
+}

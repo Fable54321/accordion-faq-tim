@@ -1,0 +1,19 @@
+@use './Abstracts/variables' as *;
+@use './Abstracts/mixins' as m;
+@use './Abstracts/reset';
+
+
+body {
+    background-image: url('../assets/images/background-pattern-mobile.svg');
+    background-repeat: no-repeat;
+    background-color: $clr-accent-light-pink;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ;
+
+    @media(min-width: $min-width-desktop) {
+        background-image: url('../assets/images/background-pattern-desktop.svg');
+    }
+}

@@ -1,0 +1,45 @@
+/* colors */
+
+$clr-neutral-100: hsl(0, 0%, 100%);
+$clr-neutral-300: hsl(292, 16%, 49%);
+$clr-neutral-900: hsl(292, 42%, 14%);
+
+
+$clr-accent-light-pink: hsl(275, 100%, 97%);
+$clr-accent-purple: hsl(281, 83%, 54%);
+
+
+/* fonts */
+
+$ff-primary: 'work sans', sans-serif;
+$ff-secondary: 'work sans', sans-serif;
+
+
+/* font sizes */
+$fs-140: 0.875rem;
+$fs-160: 1rem;
+$fs-180: 1.125rem;
+$fs-320: 2rem;
+$fs-560: 3.5rem;
+
+/* font weights */
+$fw-400: 400;
+$fw-600: 600;
+$fw-700: 700;
+
+/* spacings */
+
+$sz-80: 0.5rem;
+$sz-160: 1rem;
+$sz-200: 1.25rem;
+$sz-240: 1.5rem;
+$sz-300: 1.875rem;
+$sz-320: 2rem;
+$sz-400: 2.5rem;
+$sz-480: 3rem;
+
+
+/* breakpoints */
+
+$min-width-desktop: 40em;
+

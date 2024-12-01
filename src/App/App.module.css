@@ -1,0 +1,21 @@
+/* colors */
+/* fonts */
+/* font sizes */
+/* font weights */
+/* spacings */
+/* breakpoints */
+.app {
+  background-color: hsl(0, 0%, 100%);
+  width: clamp(300px, 87.2vw, 400px);
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  padding-bottom: 0;
+}
+@media (min-width: 40em) {
+  .app {
+    width: clamp(500px, 41.66666666vw, 700px);
+    padding: 2.5rem;
+  }
+}/*# sourceMappingURL=App.module.css.map */

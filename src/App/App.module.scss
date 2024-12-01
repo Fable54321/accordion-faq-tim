@@ -1,0 +1,16 @@
+@use '../Styles/Abstracts/variables' as *;
+
+
+.app {
+    background-color: $clr-neutral-100;
+    width: clamp(300px, 87.2vw, 400px);
+    height: fit-content;
+    border-radius: $sz-80;
+    padding: $sz-240;
+    padding-bottom: 0;
+
+    @media(min-width: $min-width-desktop) {
+        width: clamp(500px, 41.66666666vw, 700px);
+        padding: $sz-400;
+    }
+}
